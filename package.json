@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "chart.js": "^4.4.1",
+    "chartjs-gauge": "^0.3.0",
+    "progressbar.js": "^1.1.1"
+  }
+}
