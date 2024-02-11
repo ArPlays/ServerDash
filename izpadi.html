@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top glass">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">My Servers</a>
+          <div class="navbar-collapse collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Stanje</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="izpadi.html">Izpadi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Naloge</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="main-content">
+        <div class="dashboard-item glass full-width">
+            <h4>Izpadi</h4>
+            <div class="outages-table-container">
+                <table class="custom-table">
+                    <thead>
+                        <tr>
+                            <th>ID Izpada</th>
+                            <th>Datum Izpada</th>
+                            <th>Razlog</th>
+                        </tr>
+                    </thead>
+                    <tbody id="outagesTableBody">
+                        <!-- Table rows will be dynamically inserted here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="server.js"></script>
+</body>
+</html>
